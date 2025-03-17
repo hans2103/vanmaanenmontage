@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1049)"><rect width="1000" height="1000" fill="#ffffff"></rect><g transform="matrix(41.666666666666664,0,0,41.666666666666664,0,0)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="24" height="24"><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 24 24">
+  <path fill="url(#a)" d="M8.499.917c1.416 2.377 1.4 4.857 1.335 5.823-.128 1.869-.965 3.394-1.797 4.568-.894 1.261-2.025 2.527-3.034 4.67-1.49 3.166-.076 5.848 2.132 7.272-2-1.263-3.079-4-1.539-7.272 1.946-4.137 4.32-5.009 4.619-8.882.218-2.833-.729-4.867-1.716-6.179Z"></path>
+  <path fill="url(#b)" d="M14.537 11.274s.365 6.01-3.973 9.944c0 0 4.582-4.835 2.23-13.716 0 0 2.881 2.554 3.303 4.155C14.406 3.85 8.414 0 8.414 0c1.176 1.176 2.788 3.488 2.51 7.096-.298 3.873-2.672 4.745-4.619 8.882-1.946 4.136.291 7.415 3.285 7.948 2.2.391 4.922-.739 6.206-3.972.037-.136 1.238-4.58-1.259-8.68Zm1.312 8.547-.053.133a.04.04 0 0 0-.002.006l.055-.139Z"></path>
+  <path fill="url(#c)" d="M16.127 7.064c.478 2.799.004 4.75.004 4.75a19.327 19.327 0 0 1 .312 2.054c.241 2.472-.021 4.437-.594 5.953 1.593-4.003 1.689-8.498 1.689-8.498 2.758 5.556.487 11.224.487 11.224 4.461-9.602-1.898-15.483-1.898-15.483Z"></path>
+  <defs>
+    <linearGradient id="a" x1="0" x2="1" y1="0" y2="0" gradientTransform="rotate(90 3.2 4.117) scale(22.3337)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4577bc"></stop>
+      <stop offset="1" stop-color="#4577bc"></stop>
+    </linearGradient>
+    <linearGradient id="b" x1="0" x2="1" y1="0" y2="0" gradientTransform="matrix(0 24 -24 0 10.846 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4577bc"></stop>
+      <stop offset="1" stop-color="#4577bc"></stop>
+    </linearGradient>
+    <linearGradient id="c" x1="0" x2="1" y1="0" y2="0" gradientTransform="rotate(90 5.333 12.397) scale(15.4824)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4577bc"></stop>
+      <stop offset="1" stop-color="#4577bc"></stop>
+    </linearGradient>
+  <clipPath id="SvgjsClipPath1049"><rect width="1000" height="1000" x="0" y="0" rx="500" ry="500"></rect></clipPath></defs>
+</svg></svg></g></g></svg>
