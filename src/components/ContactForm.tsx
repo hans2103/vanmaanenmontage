@@ -2,7 +2,8 @@
 import { useForm, ValidationError } from '@formspree/react';
 
 const ContactForm = () => {
-    const [state, handleSubmit] = useForm('xovevnol');
+    const formspreeId = process.env.NEXT_PUBLIC_FORMSPREE_ID || '';
+    const [state, handleSubmit] = useForm(formspreeId);
 
     if (state.succeeded) {
         return <p className="text-sky-700 dark:text-sky-300">Thanks for contacting us!</p>;
