@@ -17,7 +17,7 @@ const Header = () => {
         <Container className={'pt-6 w-full'}>
             <div className="relative flex gap-4">
                 <div className="flex flex-1">
-                    <Link href={'/'} className={'w-56'}>
+                    <Link href={'/'} className={'w-56 md:w-96 lg:w-104'}>
                         <Logo className={'max-w-10/10 max-h-10/10'}/>
                     </Link>
                 </div>
