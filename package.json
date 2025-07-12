@@ -1,6 +1,6 @@
 {
   "name": "vanmaanenmontage",
-  "version": "25.28.0",
+  "version": "25.28.1",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack --experimental-https",
