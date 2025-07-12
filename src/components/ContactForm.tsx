@@ -71,6 +71,16 @@ const ContactForm = () => {
                     <ValidationError prefix="Message" field="message" errors={state.errors} className="text-red-500" />
                 </div>
 
+                <div className="flex flex-col hidden">
+                    <label htmlFor="_gotcha" className="text-gray-700 dark:text-gray-300 font-medium">Gotcha</label>
+                    <input
+                        id="_gotcha"
+                        name="_gotcha"
+                        type="text"
+                        className="hidden"
+                    />
+                </div>
+
                 <button
                     type="submit"
                     className="w-full bg-sky-600 dark:bg-sky-700 text-white p-3 rounded-md hover:bg-sky-700 dark:hover:bg-sky-600 focus:outline-none transition-colors"
