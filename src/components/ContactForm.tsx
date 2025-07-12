@@ -25,6 +25,18 @@ const ContactForm = () => {
                 </div>
 
                 <div className="flex flex-col">
+                    <label htmlFor="address" className="text-gray-700 dark:text-gray-300 font-medium">Adres</label>
+                    <input
+                        id="address"
+                        name="address"
+                        type="text"
+                        className="p-3 border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 rounded-md transition-colors"
+                        required
+                    />
+                    <ValidationError prefix="Address" field="address" errors={state.errors} className="text-red-500" />
+                </div>
+
+                <div className="flex flex-col">
                     <label htmlFor="email" className="text-gray-700 dark:text-gray-300 font-medium">e-Mail</label>
                     <input
                         id="email"
@@ -34,6 +46,18 @@ const ContactForm = () => {
                         required
                     />
                     <ValidationError prefix="Email" field="email" errors={state.errors} className="text-red-500" />
+                </div>
+
+                <div className="flex flex-col">
+                    <label htmlFor="tel" className="text-gray-700 dark:text-gray-300 font-medium">Telefoonnummer</label>
+                    <input
+                        id="tel"
+                        name="tel"
+                        type="tel"
+                        className="p-3 border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 rounded-md transition-colors"
+                        required
+                    />
+                    <ValidationError prefix="Telephone" field="tel" errors={state.errors} className="text-red-500" />
                 </div>
 
                 <div className="flex flex-col">
