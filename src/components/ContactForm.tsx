@@ -6,7 +6,7 @@ const ContactForm = () => {
     const [state, handleSubmit] = useForm(formspreeId);
 
     if (state.succeeded) {
-        return <p className="text-sky-700 dark:text-sky-300">Thanks for contacting us!</p>;
+        return <p className="text-sky-700 dark:text-sky-300">Bedankt voor je bericht!</p>;
     }
 
     return (
