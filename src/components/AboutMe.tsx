@@ -19,6 +19,7 @@ const AboutMe = ({children, title ='', portraitImage = '', className}: Props) =>
                             alt=""
                             width={400}
                             height={400}
+                            priority
                             className="aspect-square rotate-3 rounded-2xl bg-sky-100 object-cover dark:bg-sky-800"
                         />
                     </div>

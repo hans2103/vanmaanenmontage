@@ -1,6 +1,15 @@
 {
-  "name": "van Maanen",
+  "name": "van Maanen Montage",
   "short_name": "van Maanen",
+  "description": "Van Maanen Montage – uw ervaren klusser in de Kempen.",
+  "lang": "nl",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "browser"],
+  "orientation": "any",
+  "theme_color": "#f0f9ff",
+  "background_color": "#f0f9ff",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -14,8 +23,5 @@
       "type": "image/png",
       "purpose": "maskable"
     }
-  ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
-  "display": "standalone"
+  ]
 }
