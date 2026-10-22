@@ -21,6 +21,8 @@ The dev server requires the local TLS files in `./certificates/` (`localhost-key
 
 ## Environment
 
+- **Node.js 24**: `engines.node` is `24.x` (Vercel uses this for builds and supports nothing newer) and Volta pins the same major locally (`"volta"` in `package.json`). Keep both on the same major so local and production match.
+
 - `NEXT_PUBLIC_FORMSPREE_ID` — Formspree form ID used by `ContactForm.tsx`. Stored in `.env.local` (gitignored). The contact form silently no-ops if it's missing.
 
 ## Architecture
